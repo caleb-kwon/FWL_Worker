@@ -1,0 +1,36 @@
+
+% Created: 2025-07-15 23:48:45.493899
+\begingroup
+\centering
+\scriptsize
+\begin{tabular}{lcccc}
+   \toprule
+    & \multicolumn{4}{c}{log(Avg. Adv. Notice)}\\
+                           & (1)            & (2)            & (3)            & (4)\\  
+   \midrule 
+    LA $\times$ Post-LFW    & 0.088$^{***}$  & 0.088$^{***}$  & 0.085$^{***}$  & 0.085$^{***}$\\   
+                           & (0.020)        & (0.019)        & (0.018)        & (0.018)\\   
+   log(Worker Mins.)              & 0.216$^{***}$  & 0.212$^{***}$  & 0.204$^{***}$  & 0.203$^{***}$\\   
+                           & (0.019)        & (0.018)        & (0.016)        & (0.015)\\   
+   log(Worker Shifts)             & 0.028$^{*}$    & 0.031$^{**}$   & 0.033$^{***}$  & 0.034$^{***}$\\   
+                           & (0.015)        & (0.014)        & (0.013)        & (0.012)\\   
+   log(Store Demand)       & 0.015$^{**}$   & 0.014$^{**}$   & 0.017$^{**}$   & 0.017$^{***}$\\   
+                           & (0.007)        & (0.007)        & (0.007)        & (0.007)\\   
+   log(Store Labor Supply) & 0.034$^{***}$  & 0.033$^{***}$  & 0.034$^{***}$  & 0.036$^{***}$\\   
+                           & (0.008)        & (0.008)        & (0.007)        & (0.007)\\   
+   log(Store Op. Mins)     & 0.066$^{**}$   & 0.036          & 0.005          & 0.007\\   
+                           & (0.028)        & (0.029)        & (0.020)        & (0.019)\\   
+   log(Store Mgr. Edits)   & -0.128$^{***}$ & -0.127$^{***}$ & -0.128$^{***}$ & -0.129$^{***}$\\   
+                           & (0.004)        & (0.004)        & (0.004)        & (0.004)\\   
+   Time Window             & [-12,11]       & [-Inf,11]      & [-Inf,15]      & [-Inf,17]\\  
+    \\
+   Observations            & 8,323,388      & 8,671,684      & 10,033,690     & 10,704,782\\  
+   Adjusted R$^2$          & 0.570          & 0.568          & 0.563          & 0.560\\  
+    \\
+   Store FEs               & $\checkmark$   & $\checkmark$   & $\checkmark$   & $\checkmark$\\   
+   Employee FEs            & $\checkmark$   & $\checkmark$   & $\checkmark$   & $\checkmark$\\   
+   Company-Month FEs       & $\checkmark$   & $\checkmark$   & $\checkmark$   & $\checkmark$\\   
+   \bottomrule
+\end{tabular}
+\par\endgroup
+
